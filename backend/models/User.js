@@ -26,6 +26,7 @@ const userSchema = new mongoose.Schema({
     },
     department: String,
     stream: String,
+    semester: String,
     year: String,
     rollNo: String,
     isProfileComplete: {
