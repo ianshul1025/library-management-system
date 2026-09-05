@@ -85,6 +85,7 @@ export async function registerUser(req, res) {
         // Send success response
         res.status(201).json({
             message: "User registered successfully. Please check your email for the OTP.",
+            user
         });
 
     } catch (error) {
